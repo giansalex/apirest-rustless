@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["giansalex <giansalex@gmail.com>"]
 
 [dependencies]
+rustless = "0.10.0"
