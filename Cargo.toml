@@ -1,7 +1,17 @@
 [package]
 name = "api_rustless"
 version = "0.1.0"
-authors = ["giansalex <giansalex@gmail.com>"]
+authors = ["Giancarlos Salas <giansalex@gmail.com>"]
+
+[[bin]]
+name = "backend"
+path = "src/main.rs"
 
 [dependencies]
 rustless = "0.10.0"
+rustc-serialize = "0.3.24"
+jsonway = "1.0.1"
+time = "0.1.39"
+iron = "0.6.0"
+valico = "1.0.1"
+hyper = "0.11.18"
